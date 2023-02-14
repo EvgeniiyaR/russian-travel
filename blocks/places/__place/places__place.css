@@ -31,7 +31,7 @@
     "website"
     "image"
     "paragraphs";
-    grid-row-gap: calc(33px + (48 - 33) * ((100vw - 320px) / (768 - 320)));;
+    grid-row-gap: calc(33px + (48 - 33) * ((100vw - 320px) / (768 - 320)));
     grid-template-columns: calc(320px + (340 - 320) * ((100vw - 320px) / (768 - 320)));
   }
 }

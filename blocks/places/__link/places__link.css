@@ -6,7 +6,6 @@
   line-height: 1.2;
   transition: opacity .3s;
   text-underline-offset: 3px;
-  margin-bottom: -9px;
 }
 
 .places__link:hover {

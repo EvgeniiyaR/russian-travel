@@ -1,4 +1,5 @@
 .footer {
+  margin: 0 auto;
   width: calc(100% - 48px * 2);
   color: #FFFFFF;
   display: flex;
@@ -16,7 +17,6 @@
 @media screen and (max-width: 767px) {
   .footer {
     max-width: calc(288px + (720 - 288) * ((100vw - 320px) / (768 - 320)));
-    display: flex;
     flex-direction: column;
     gap: 48px;
     padding-top: calc(64px + (88 - 64) * ((100vw - 320px) / (768 - 320)));

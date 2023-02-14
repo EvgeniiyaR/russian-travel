@@ -1,4 +1,5 @@
-.photo-grid {
+.photo-grid__list {
+  margin: 0 auto;
   list-style-type: none;
   box-sizing: border-box;
   display: grid;
@@ -9,7 +10,7 @@
 }
 
 @media screen and (max-width: 1023px) {
-  .photo-grid {
+  .photo-grid__list {
     grid-gap: 14px;
     width: calc(720px + (928 - 720) * ((100vw - 768px)  /  (1024 - 768)));
     padding: calc(92px + (92 - 92) * ((100vw - 768px) / (1024 - 768))) 0;
@@ -17,7 +18,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .photo-grid {
+  .photo-grid__list {
     width: calc(288px + (720 - 288) * ((100vw - 320px) / (768 - 320)));
     padding: calc(64px + (88 - 64) * ((100vw - 320px) / (768 - 320))) 0;
     grid-gap: 12px;

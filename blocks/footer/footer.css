@@ -1,0 +1,24 @@
+.footer {
+  width: calc(100% - 48px * 2);
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  padding: 96px 0 24px;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer {
+    width: calc(720px + (928 - 720) * ((100vw - 768px)  /  (1024 - 768)));
+    padding-top: 83px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    max-width: calc(288px + (720 - 288) * ((100vw - 320px) / (768 - 320)));
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding-top: calc(64px + (88 - 64) * ((100vw - 320px) / (768 - 320)));
+  }
+}

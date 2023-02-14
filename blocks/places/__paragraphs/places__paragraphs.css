@@ -1,0 +1,25 @@
+.places__paragraphs {
+  grid-area: paragraphs;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+
+@media screen and (max-width: 1279px) {
+  .places__paragraphs {
+    gap: 21px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .places__paragraphs {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places__paragraphs {
+    gap: 25px;
+    padding: 0 16px;
+  }
+}

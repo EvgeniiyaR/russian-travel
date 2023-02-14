@@ -11,12 +11,12 @@
 
 @media screen and (max-width: 1023px) {
   .places__list {
-    row-gap: calc(71px + (86 - 71) * ((100vw - 768px) / (1024 - 768)));
+    row-gap: calc(73px + (86 - 73) * ((100vw - 768px) / (1024 - 768)));
   }
 }
 
 @media screen and (max-width: 767px) {
   .places__list {
-    row-gap: calc(50px + (79 - 50) * ((100vw - 320px) / (768 - 320)));
+    row-gap: calc(43px + (73 - 43) * ((100vw - 320px) / (768 - 320)));
   }
 }

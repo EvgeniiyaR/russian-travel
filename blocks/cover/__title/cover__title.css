@@ -5,13 +5,6 @@
   line-height: 1;
   max-width: 560px;
   z-index: 2;
-  padding-top: 10px;
-}
-
-@media screen and (max-width: 1023px) {
-  .cover__title {
-    padding-top: 0;
-  }
 }
 
 @media screen and (max-width: 767px) {

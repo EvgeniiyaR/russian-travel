@@ -13,4 +13,4 @@
 
 ---
 
-Ссылка на проект:
+Ссылка на проект: https://evgeniiyar.github.io/russian-travel/
